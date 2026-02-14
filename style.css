@@ -271,6 +271,10 @@ li{
    body{
     padding:5px;
    }
+   p{
+    font-size: 11px;
+   }
+   
     .body {
         flex-direction:column;
         padding: 0px;
@@ -285,12 +289,21 @@ li{
         
         padding:20px;
     }
-    .contact ul{
-        display :flex;
-        
-    }
+ 
     .contact li{
         margin-right:20px;
     }
-    
+    .project div {
+        width : 150px;
+        height: 100px;
+    }
+    .project div:hover{
+        width:160px;
+        height:110px;
+    }
+    .skills div{
+        width: 70px;
+        height: 100px;
+
+    }
 }
