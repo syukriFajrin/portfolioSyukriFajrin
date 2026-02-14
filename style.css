@@ -303,9 +303,14 @@ li{
         width:100px;
         height:110px;
     }
-    .skills div{
-        width: 50px;
-        height: 100px;
-
+    
+    .skills img{
+        width: 70px;
+        height: 70px;
     }
+    .skills div{
+        width: 70px;
+        height: 70px;
+    }
+
 }
