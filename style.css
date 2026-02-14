@@ -278,6 +278,7 @@ li{
     .body {
         flex-direction:column;
         padding: 0px;
+        margin-right: 5px;
     }
     .content{
         width :100%;
