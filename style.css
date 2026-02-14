@@ -1,0 +1,296 @@
+body{
+    background-color: #0f172a;
+    color :whitesmoke;
+    font-family:sans-serif;
+
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    padding-top: 10px;
+    margin-right: 10px;
+    width: 20%;
+    position:relative;
+    
+}
+.mainContent{
+    padding:0px 50px 50px 50px ;
+    width:40%;
+    border-radius:20px;
+    background-color: #1e293b;
+}
+/* content*/
+.profil {
+    display :flex;
+}
+.foto1 {
+    width:100px;
+    height:100px;
+}
+ul{
+    padding:0px;
+}
+li{
+    list-style:none;
+
+}
+.profil h5{
+     padding: 0px;
+     margin: 0px ;
+}
+.profil h2 {
+    margin: 20px 0px 0px 0px ;
+}
+.nameText{
+    margin-left:15px;
+    margin-top:3px;
+}
+.contact {
+    padding-top:17px;
+}
+.contact h2 {
+    margin:0px;
+}
+.contact  ul {
+    margin:10px 0px 0px  20px;
+}
+.contact a{
+    padding-left: 10px;
+    padding-top: 0px;
+    text-decoration:none;
+    color:white;
+    position:relative;
+    top:-5px;
+    transition:0.3s;
+}
+.contact img{
+    width:25px;
+    height: 25px;
+}
+.line1 {
+    width: 200px;
+    height: 2px;
+    background-color: gray;
+}
+.contact li{
+    margin-bottom:4px;
+    transition: 0.1s;
+}
+.contact li:hover{
+    border-bottom:1px solid;
+}
+/* main content*/
+.education {
+    display:flex;
+}
+.mainContent h2 {
+    margin-bottom:0px;
+}
+.education h3{
+    margin:0px;
+}
+.education p{
+    margin:0px;
+}
+.line_title{
+    width: 50%;
+    height:3px;
+    background-color: gray;
+}
+.education {
+    margin-top:10px;
+}
+.line2 {
+    width:3px;
+    height:50px;
+    background-color: gray ;
+}
+.degre {
+    margin-left: 10px ;
+}
+
+/* pangalaman*/
+.peng1{
+    display :flex ;
+}
+.line3{
+    margin-top:10px;
+    width:3px;
+    height:80px;
+    background-color:gray ;
+}
+.peng1 h3{
+    margin:10px 0px 0px 10px;
+}
+.peng1  p{
+    margin:0px 0px 0px 10px;
+}
+/* project*/
+.project div {
+    width : 200px;
+    height: 100px;
+    background-color : green;
+    margin-right:10px;
+    border-radius: 10px ;
+    display :flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition:0.3s;
+}
+.project div:hover{
+    width:210px;
+    height:110px;
+}
+
+.project p{
+    width:100%;
+    height:40%;
+    background-color: gray;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius:10px;
+    opacity:0%;
+    transition: 0.3s;
+}
+.project p:hover{
+    opacity: 75%;
+    color:white;
+}
+
+#s1 div{
+    background-image:url(project/performance_student.jpeg);
+    background-size: 200px;
+}
+#s2 div{
+    background-image:url(photo/drugs.jpeg);
+    background-size: 200px;
+}
+#s3 div{
+    background-image:url(photo/weather.jpeg);
+    background-size: 200px;
+}
+#s4 div{
+    background-image:url(photo/churn.jpeg);
+    background-size: 200px;
+}
+#s5 div{
+    background-image:url(project/score_student.jpeg);
+    background-size: 200px;
+}
+#s6 div{
+    background-image:url(photo/diabetes.jpeg);
+    background-size: 200px;
+}
+#p1 div{
+    background-image:url(project/education.png);
+    background-size: 300px;
+}
+#p2 div {
+    background-image: url(project/ola.png);
+    background-size: 300px;
+}
+#p3 div{
+    background-image: url(project/eye_cancer.png);
+    background-size: 300px;
+}
+#p4 div{
+    background-image: url(photo/sportify.png);
+    background-size: 300px;
+}
+#p5 div{
+    background-image: url(photo/netflix.png);
+    background-size: 300px;
+}
+.project a{
+    text-decoration: none;
+    color :black;
+} 
+.project li {
+
+    margin: 0;
+}
+.project ul{
+    display :flex;
+    justify-content: center;
+}
+.subContent{
+    display :flex;
+}
+.subContent h3{
+    margin:10px 0px 0px 10px;
+}
+.subContent div{
+    margin:10px 0px 0px 0px;
+    width: 3px;
+    height: 30px;
+    background-color: gray;
+}
+
+
+/* skills*/
+
+.skills ul{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+}
+.skills div{
+    width: 100px;
+    height: 100px;
+
+}
+.skills li{
+    margin:0px 35px 0px 0px;
+}
+.skills p{
+    margin:0px 0px 0px 0px;
+    text-align:center;
+}
+.skills img{
+    width: 100px;
+    height: 100px;
+}
+
+.End{
+    width:100%;
+    height:50px;
+    background-color:#1e293b;
+    margin-top:50px ;
+    margin-bottom: 0;
+}
+
+.space {
+    height:10px;
+}
+/* display handpohone*/
+@media (max-width:1500px){
+   /* profil content*/
+   body{
+    padding:5px;
+   }
+    .body {
+        flex-direction:column;
+        padding: 0px;
+    }
+    .content{
+        width :100%;
+
+        margin-bottom: 30px;
+    }
+    .mainContent{
+        width :94%;
+        
+        padding:20px;
+    }
+    .contact ul{
+        display :flex;
+        
+    }
+    .contact li{
+        margin-right:20px;
+    }
+    
+}
