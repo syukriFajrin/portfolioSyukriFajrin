@@ -20,13 +20,14 @@ body{
 }
 h1{
     padding:10px 30px 0px 30px;
-    margin:0px;
+    margin-left:20px;
     font-size: 24px;
 
 }
 p{
     font-size: 15px;
-    margin:0px;
+    margin-left:20px;
+
     padding:0px 30px 30px 30px;
 }
 li {
@@ -34,7 +35,7 @@ li {
 }
 h2{
     font-size: 18px;
-    margin: 0px;
+    margin-left: 20px;
     padding:30px 0px 10px 30px;
 }
 .figure{
@@ -51,13 +52,7 @@ h2{
     height:2px;
     background-color: gray ;
 }
-.end{
-    background-color: #1e293b;
-    margin-top:30px;
-    margin-bottom: 0px;
-    width: 100%;
-    height:150px;
-}
+
 .picture1{
     margin: 30px 0px 10px 30px ;
     padding:30px 0px 10px 30px;
@@ -68,42 +63,42 @@ h2{
     
 }
 li{
-    margin-left:40px;
+    margin-left:60px;
 }
 .picture2{
-    margin: 30px 0px 10px 30px ;
+    margin: 30px 0px 10px 50px ;
     padding:30px 0px 10px 30px;
     background-image: url(monthvstotal.jpg);
-    background-size: 430px;
-    width: 400px;
-    height: 300px;
+    background-size: 370px;
+    width: 345px;
+    height: 250px;
     
 }
 .picture3{
-    margin: 30px 0px 10px 30px ;
+    margin: 30px 0px 10px 50px ;
     padding:30px 0px 10px 30px;
     background-image: url(mostcountry.jpg);
-    background-size: 430px;
-    width: 400px;
-    height: 300px;
+    background-size: 370px;
+    width: 345px;
+    height: 250px;
     
 }
 .picture4{
-    margin: 30px 0px 10px 30px ;
+    margin: 30px 0px 10px 50px ;
     padding:30px 0px 10px 30px;
     background-image: url(PercentageFilm.jpg);
-    background-size: 400px;
-    width: 380px;
-    height: 300px;
+    background-size: 340px;
+    width: 310px;
+    height: 250px;
     
 }
 .picture5{
-    margin: 30px 0px 10px 30px ;
+    margin: 30px 0px 10px 50px ;
     padding:30px 0px 10px 30px;
     background-image: url(Top10MostPopularGenderFilm.jpg);
-    background-size: 430px;
-    width: 400px;
-    height: 235px;
+    background-size: 370px;
+    width: 345px;
+    height: 190px;
     
 }
 .space{
